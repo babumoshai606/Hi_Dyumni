@@ -1,0 +1,196 @@
+/* pink - #ffd9cc
+blue - #e7f3ff
+new-white = #fbfcff
+new-black - #4c4c4e */
+
+
+body{
+  background-color: #fbfcff;
+  font-family: 'Comfortaa', cursive;
+  /* font-family: 'Pacifico', cursive; */
+}
+
+h1{
+  font-family: 'Pacifico', cursive;
+  font-size: 7.8rem;
+  line-height: 1.2;
+  text-align: center;
+}
+
+h2{
+  font-size: 3rem;
+  font-weight: bolder;
+  text-align: center;
+  margin: 80px;
+  color: #4c4c4e;
+}
+
+h3{
+  font-size: 1.2rem;
+  line-height: 2;
+  color: #4c4c4e;
+}
+
+h5{
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+h6{
+  line-height: 2;
+  color: #4c4c4e;
+}
+
+#navigation{
+  background-color: #e7f3ff;
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 2;
+}
+
+#home{
+  background-color: #e7f3ff;
+  padding: 160px;
+}
+
+
+
+
+
+
+
+
+
+.nav-link{
+  color: #4c4c4e;
+  font-size: 1rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.nav > li > a:hover{
+    color: black;
+}
+
+
+
+
+
+
+.hero-text{
+  text-align: center;
+}
+
+.title-image{
+    position: relative;
+    max-width: 100%;
+    min-width: 60%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+.hero-letter{
+  background-color: #fbfcff;
+  box-shadow: 6.364px 6.364px 13px 0 rgba(0, 0, 0, 0.35);
+  padding: 50px;
+}
+
+
+
+
+
+
+.moments-imgs{
+  border-radius: 0;
+  border: 0;
+  margin: 40px;
+  box-shadow: -27px -27px #ffd9cc;
+}
+.card-img{
+  border-radius: 0;
+  /* box-shadow: -27px -27px #ffd9cc; */
+}
+.moments-imgs:hover{
+  cursor: pointer;
+  margin-top: 13px;
+  margin-left: 13px;
+  box-shadow: none;
+  transition-duration: .35s;
+}
+
+
+
+
+
+
+#testimonials{
+  text-align: center;
+  background-color: #ffd9cc;
+  color: #4c4c4e;
+  margin-top: 160px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.testimonial-text{
+  font-size: 4rem;
+  font-family: sans-serif;
+  font-weight: 900;
+  color: black;
+}
+
+
+
+
+
+
+#bonus{
+  background-color: #fbfcff;
+  text-align: center;
+  padding: 60px;
+}
+
+.story{
+  color: #4c4c4e;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+.story:hover{
+  color: black;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+.hero-img{
+  border-radius: 0;
+  border: 0;
+  box-shadow: -27px -27px #ffd9cc;
+  margin-top: 80px;
+  margin-left: 10%;
+  width: 80%;
+}
+
+
+
+
+.card-body{
+  padding: 50px;
+}
+.dedicated{
+  background-color: #fbfcff;
+  border: 0;
+  margin-top: 20px;
+}
+.btn{
+  border-radius: 0;
+  border: none;
+  background-color: #e7f3ff;
+  margin-top: 40px;
+  padding: 2% 4%;
+}
